@@ -1,0 +1,108 @@
+main{
+    padding:10px
+}
+.navbar ul{
+
+    list-style-type:none;
+    display:block;
+    background-color: gray;
+    text-align:center;
+    overflow:hidden;
+    height: 72px;
+    
+} 
+.navbar li{
+    font-family:'Arial';
+    float:left;
+    
+}
+.navbar a{
+    display:block;
+    padding:25px 20px;
+    color:#eece57;;
+    font-size: 22px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    size: 50px;
+    background-color:#eece57;;
+    color:rgb(255, 255, 255);
+}
+main {
+    margin:5px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://t4.ftcdn.net/jpg/04/39/09/87/360_F_439098799_yaC8d1E1qegmiAO6t4mB5Ax8NfCg94fy.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  
+  
+  .hero-text button:hover {
+    background-color: #ffc800;
+    color: white;
+  }
+  body {
+	background-color: hsl(192, 100%, 51%);
+}
+
+.title {
+	font-family: "Cairo";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	letter-spacing: 1px;
+	line-height:2
+}
+
+h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	margin: 10px 0;
+}
+/* styling my button */
+
+.white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: #122;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #FFF;
+	color: #122;
+}
